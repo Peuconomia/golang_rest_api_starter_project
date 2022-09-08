@@ -17,4 +17,4 @@ WORKDIR /usr/local/bin
 
 COPY --from=builder /usr/local/bin/app ./
 
-CMD ["./app"]
+CMD ["./app","-environment=none"]
